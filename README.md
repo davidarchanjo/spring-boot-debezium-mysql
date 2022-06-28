@@ -16,10 +16,9 @@ $ docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USER=user -e MYSQ
 2. Connect to MySQL docker instance:
 ```shell
 $ docker exec -it mysql bash
-root@3ce675e5c397:/#
 ```
 
-3. Login into MySQL using the specified user credencials:
+3. Once inside, login into MySQL server:
 ```shell
 # mysql --user=user --password=password
 ```
