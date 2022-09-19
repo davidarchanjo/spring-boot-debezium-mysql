@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>io.davidarchanjo</groupId>
-  <artifactId>spring-boot-debezium</artifactId>
+  <artifactId>spring-boot-debezium-mysql</artifactId>
   <version>0.1.0</version>
   <description>Spring Boot sample project showing case the Debezium framework for CDC</description>
 
