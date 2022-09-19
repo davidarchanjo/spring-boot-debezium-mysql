@@ -25,12 +25,12 @@ For more information visit this [link](https://debezium.io/documentation/referen
 
 2. Connect to MySQL docker instance:
 ```shell
-$ docker exec -it mysql bash
+docker exec -it mysql bash
 ```
 
 3. Once inside, login into MySQL server:
 ```shell
-# mysql --user=user --password=password
+mysql --user=user --password=password
 ```
 
 4. Once logged in, create the database and table to run the demo application:
@@ -50,19 +50,17 @@ Query OK, 0 rows affected (0.02 sec)
 5. Logout from the MySQL server and disconnect from the instance:
 ```shell
 mysql> exit
-Bye
-# exit
 exit
 ```
 
 6. Run the application:
 ```shell
-$ ./mvnw spring-boot:run
+./mvnw spring-boot:run
 ```
 
 7. From another terminal, log in again into the docker instance and then into the MySQL server. Once logged in, insert some random data into the `customerdb` table:
 ```shell
-mysql> mysql> INSERT INTO customerdb.customer (fullname, email) VALUES(CAST(NOW() AS CHAR), CAST(NOW() AS CHAR));
+mysql> INSERT INTO customerdb.customer (fullname, email) VALUES(CAST(NOW() AS CHAR), CAST(NOW() AS CHAR));
 Query OK, 1 row affected (0.01 sec)
 ```
 
