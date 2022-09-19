@@ -46,6 +46,8 @@ public class DebeziumListener {
         // if (sourceRecordChangeValue != null) {
         //     Operation operation = Operation.forCode((String) sourceRecordChangeValue.get(OPERATION));
 
+        // Operation.READ operation events are always triggered when application initializes
+        // We're only interested in CREATE operation which are triggered upon new insert registry
         //     if(operation != Operation.READ) {
         //         String record = operation == Operation.DELETE ? BEFORE : AFTER; // Handling Update & Insert operations.
 
