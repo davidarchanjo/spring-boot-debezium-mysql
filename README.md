@@ -1,6 +1,16 @@
 # Spring Boot + Debezium + MySQL
 ![banner](./assets/banner.jpg)
 
+## INTRODUCTION
+Debezium is a distributed platform used to implement Change Data Capture (a.k.a CDC) from SQL and NoSQL databases into event streams, enabling applications to detect and immediately respond to row-level changes in the databases. Debezium is built on top of Apache Kafka and provides a set of Kafka Connect compatible connectors. Each of the connectors works with a specific database.
+
+<br>
+
+## OVERVIEW
+In this project, I implement the Debezium service programmatically, and run via Docker a MySQL database server with an example table in order to monitor for all events about data insertion or change.
+
+<br>
+
 ## PREREQUISITES
 - Java
 - Docker
