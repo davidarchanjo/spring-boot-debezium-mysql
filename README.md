@@ -7,7 +7,7 @@ Debezium is a distributed platform used to implement Change Data Capture (a.k.a 
 <br>
 
 ## OVERVIEW
-In this project, I implement the Debezium service programmatically, and run via Docker a MySQL database server with an example table in order to monitor for all events about data insertion or change.
+In this project, I implement the Debezium service programmatically, and run via Docker a MySQL database server with an example table in order to monitor all events about data insertion or change.
 
 <br>
 
