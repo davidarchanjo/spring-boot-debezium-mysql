@@ -1,4 +1,4 @@
-# Spring Boot + Debezium
+# Spring Boot + Debezium + MySQL
 ![banner](./assets/banner.jpg)
 
 ## PREREQUISITES
