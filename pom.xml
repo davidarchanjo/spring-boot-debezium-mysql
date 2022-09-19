@@ -11,7 +11,7 @@
   <groupId>io.davidarchanjo</groupId>
   <artifactId>spring-boot-debezium-mysql</artifactId>
   <version>0.1.0</version>
-  <description>Spring Boot sample project showing case the Debezium framework for CDC</description>
+  <description>Spring Boot sample project demonstrating the usage of the Debezium framework for CDC on MySQL database</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
